@@ -25,15 +25,15 @@
 
 # Project Description
 
-**Aim** - 
+* **Aim**:
 
 To identify policy holders with an increased likelihood of misrepresenting their primary addresses to secure lower insurance premiums by leveraging a combination of internal and external datasets.
 
-**Null Hypothesis** - 
+* **Null Hypothesis**:
 
 Policyholders are not strategically mis-representing their primary addresses to secure lower insurance premiums
 
-**Alternate Hypothesis** - 
+* **Alternate Hypothesis**:
 
 There are potential patterns indicating that policyholders are strategically mis-representing their primary addresses to secure lower insurance premiums
 
@@ -75,16 +75,18 @@ There are potential patterns indicating that policyholders are strategically mis
 
 # Data Exploration
 
-In this phase of the project, I have tried to disclose hidden pattern in the dataset.The key insights are as follows - 
+In this phase of the project, I have tried to disclose hidden patterns in the dataset. 
+
+* **Key Pattern**:
+
+From the preliminary data analysis (**Plot 2**), I concluded that policyholders aligning their current address with the vehicle registration address might be engaging in practices to secure reduced insurance costs
 
 Insight| &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Visualization &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
 :-------------------------|:-------------------------:
- Plot1: Premium Paid v/s Vehicle Registration Address Verified or Not  <br/> <br/> When vehicle registration address is not confirmed,<br/> the avg. premium tends to be lower. | ![alt text](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/plots/p1.png?raw=true)
-  Plot2: Premium Paid v/s Current Address same as Vehicle Registration Address <br/> <br/> When current address is same as vehicle registration address<br/> then its premium tends to be lower. | ![alt text](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/plots/p2.png?raw=true)
- Plot3: Frequency of Suspicious Pattern v/s Number of Address Changes <br/> <br/> The count of number of suspicious people are more <br/>  for number of address changes more that or equal to 2.| ![alt text](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/plots/p3.png?raw=true)
+**Plot1: Premium Paid v/s Vehicle Registration Address Verified or Not**  <br/> <br/> When vehicle registration address is not confirmed,<br/> the avg. premium tends to be lower. | ![alt text](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/plots/p1.png?raw=true)
+**Plot2: Premium Paid v/s Current Address same as Vehicle Registration Address** <br/> <br/> When current address is same as vehicle registration address<br/> then its premium tends to be lower. | ![alt text](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/plots/p2.png?raw=true)
+**Plot3: Frequency of Suspicious Pattern v/s Number of Address Changes** <br/> <br/> The count of number of suspicious people are more <br/>  for number of address changes more that or equal to 2.| ![alt text](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/plots/p3.png?raw=true)
 
-
-From the preliminary data analysis, I concluded that 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
