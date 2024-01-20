@@ -92,6 +92,31 @@ Insight| &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Visualization &n
 
 # Hypothesis Testing
 
+## Hypothesis Test: Impact of Current Address Alignment on Premium Amount
+
+### Objective:
+To investigate whether the alignment of the current address with the vehicle registration address significantly impacts the premium amount in the linear regression model.
+
+### Hypotheses:
+- **Null Hypothesis (\(H_0\)):**
+  There is no statistically significant impact of the 'current_address_same_as_vehicle_registration_address' variable on the 'premium_amount' variable in the linear regression model.
+
+- **Alternate Hypothesis (\(H_a\)):**
+  There is a statistically significant impact of the 'current_address_same_as_vehicle_registration_address' variable on the 'premium_amount' variable in the linear regression model.
+
+### Test Details:
+We will conduct a linear regression analysis to explore the relationship between the alignment of the current address with the vehicle registration address and its impact on the premium amount. The statistical significance of the variable will be assessed to determine its influence on premium variations.
+
+### Interpretation:
+- If the p-value is less than the chosen significance level (e.g., 0.05), we will reject the null hypothesis, suggesting a significant impact of the 'current_address_same_as_vehicle_registration_address' variable on premiums.
+- If the p-value is greater than the significance level, we will fail to reject the null hypothesis, indicating no significant impact.
+
+### Expected Outcome:
+A significant result would imply that policyholders aligning their current address with the vehicle registration address have a meaningful impact on securing lower insurance premiums.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 # Modeling Approach 
 Steps - 
 
