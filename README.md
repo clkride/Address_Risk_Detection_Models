@@ -62,7 +62,7 @@ What I am making and why
                       
 
     
-* **Data Dictionary**: Detailed Description can be found @ [Data_Dictionary.md](https://github.com/clkride/Feature_Importance_ANN/blob/main/Data%20Set%20Description/Data_Dictionary.md).
+* **Data Dictionary**: Detailed Description can be found @ [Data_Dictionary.md](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/data%20dictionary/feature_description.md)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
