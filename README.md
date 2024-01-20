@@ -29,11 +29,11 @@
 
 To identify policy holders with an increased likelihood of misrepresenting their primary addresses to secure lower insurance premiums by leveraging a combination of internal and external datasets.
 
-* **Null Hypothesis**:
+* **Default Scenario**:
 
 Policyholders are not strategically mis-representing their primary addresses to secure lower insurance premiums
 
-* **Alternate Hypothesis**:
+* **Conflicting Scenario**:
 
 There are potential patterns indicating that policyholders are strategically mis-representing their primary addresses to secure lower insurance premiums
 
