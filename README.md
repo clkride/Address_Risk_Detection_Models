@@ -9,10 +9,6 @@
 <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue">
 </a>
 
-# Address_Risk_Detection_Models
-Aim - 
-
-To identify policy holders with an increased likelihood of misrepresenting their primary addresses to secure lower insurance premiums by leveraging a combination of internal and external datasets.
 
 # Table of Contents
 - [Project Description](#project-description)
@@ -28,7 +24,14 @@ To identify policy holders with an increased likelihood of misrepresenting their
 - [Acknowledgments](#acknowledgments)
 
 # Project Description
-What I am making and why
+
+**Aim** - 
+
+To identify policy holders with an increased likelihood of misrepresenting their primary addresses to secure lower insurance premiums by leveraging a combination of internal and external datasets.
+
+**Null Hypothesis** - Policyholders are not strategically mis-representing their primary addresses to secure lower insurance premiums
+
+**Alternate Hypothesis** - There are potential patterns indicating that policyholders are strategically mis-representing their primary addresses to secure lower insurance premiums
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
