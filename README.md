@@ -9,20 +9,6 @@
 <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin&labelColor=blue">
 </a>
 
-
-# Table of Contents
-- [Project Description](#project-description)
-- [About Dataset](#about-dataset)
-- [Data Exploration](#data-exploration)
-- [Hypothesis Testing](#hypothesis-testing)
-- [Modeling Approach](#modeling-approach)
-- [Model Outcome](#model-outcome)
-- [Feature Importance](#feature-importance)
-- [Business Implications](#business-implications)
-- [Author](#author)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
 # Project Description
 
 * **Aim**:
@@ -92,17 +78,15 @@ Insight| &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Visualization &n
 
 # Hypothesis Testing
 
-## Hypothesis Test: Impact of Current Address Alignment on Premium Amount
-
 ### Objective:
-To investigate whether the alignment of the current address with the vehicle registration address significantly impacts the premium amount in the linear regression model.
+To investigate whether the alignment of the current address with the vehicle registration address significantly impacts the premium amount.
 
 ### Hypotheses:
 - **Null Hypothesis (\(H_0\)):**
-  There is no statistically significant impact of the 'current_address_same_as_vehicle_registration_address' variable on the 'premium_amount' variable in the linear regression model.
+ Whether addresses match or not doesn't seem to have a noticeable impact on how much customers pay for their insurance premiums
 
 - **Alternate Hypothesis (\(H_a\)):**
-  There is a statistically significant impact of the 'current_address_same_as_vehicle_registration_address' variable on the 'premium_amount' variable in the linear regression model.
+  There is a statistically significant impact of whether addresses match or not on the amount customers pay for their insurance premiums
 
 ### Test Details:
 We will conduct a linear regression analysis to explore the relationship between the alignment of the current address with the vehicle registration address and its impact on the premium amount. The statistical significance of the variable will be assessed to determine its influence on premium variations.
