@@ -94,14 +94,18 @@ To investigate whether the alignment of the current address with the vehicle reg
 I conducted a One-Way Analysis of Variance (ANOVA) using a linear regression model to explore the relationship between the alignment of the current address with the vehicle registration address and its impact on the premium amount. 
 
 * **Test Result**:
+**Analysis of Variance Table**
+
+| Response: premium_amount            | Df | Sum Sq    | Mean Sq | F value | Pr(>F)   |
+|-------------------------------------|----|-----------|---------|---------|----------|
+| current_add_same_as_vehicle_reg     | 1  | 81975     | 81975   | 3.9563  | 0.04672* |
+| Residuals                           | 9998 | 207163531 | 20720   |         |          |
 
 ### Interpretation:
-I assessed the statistical significance of the variable to determine its influence on premium variations.
-- If the p-value is less than the chosen significance level (e.g., 0.05), we will reject the null hypothesis, suggesting a significant impact of the 'current_address_same_as_vehicle_registration_address' variable on premiums.
-- If the p-value is greater than the significance level, we will fail to reject the null hypothesis, indicating no significant impact.
+Since the p-value is less than 0.05 significance level, I reject the null hypothesis. There is a statistically significant impact of whether addresses match or not on insurance premiums
 
-### Expected Outcome:
-A significant result would imply that policyholders aligning their current address with the vehicle registration address have a meaningful impact on securing lower insurance premiums.
+### Business Implication:
+A significant result implies that policyholders aligning their current address with the vehicle registration address have a meaningful impact on securing lower insurance premiums.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
