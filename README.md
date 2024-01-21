@@ -13,7 +13,7 @@
 
 * **Aim**:
 
-To identify policy holders with an increased likelihood of misrepresenting their primary addresses to secure lower insurance premiums by leveraging a combination of internal and external datasets.
+To identify policy holders with an increased likelihood of misrepresenting their primary addresses to secure lower vehicle insurance premiums.
 
 * **Business Impact and Rationale**: 
   * Improve the accuracy of underwriting processes by detecting potential misrepresentations in primary addresses.
