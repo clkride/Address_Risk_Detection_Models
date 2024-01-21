@@ -82,7 +82,7 @@ Insight| &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Visualization &n
 ### Objective:
 To investigate whether the alignment of the current address with the vehicle registration address significantly impacts the premium amount.
 
-### Hypotheses:
+### Hypothesis:
 - **Null Hypothesis (\(H_0\)):**
  Whether addresses match or not doesn't seem to have a noticeable impact on how much customers pay for their insurance premiums
 
