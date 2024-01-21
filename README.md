@@ -124,15 +124,29 @@ Results can be found @ [Hypothesis_Test_Results.md](https://github.com/clkride/A
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Modeling Approach 
-Steps - 
 
+**Model Used**: Local Outlier Factor (LOF) for anomaly detection
+
+Steps - 
+1. **Data Preparation**: Feature Engineering and Data Transformation of Categorical and Numerical Attributes
+2. **Feature Selection**: Select features that are relevant for detecting anomalies
+3. **Train-Test Split**: Split the dataset into training set (80%) and test set (20%).
+4. **Model Training**: Initialize and Train the LOF Model. Fine tune the Hyper-parameters.
+5. **Predict Anomalies**: Predict anomaly scores for each policyholder in test data.
+6. **Performance Evaluation**: Plot test and training outliers to evaluate model.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Model Outcome 
 
+The visualizations show the outliers encircled in red for both the training and test datasets. Outliers are identified based on the LOF scores calculated by the model.
 
-# Feature Importance
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Business Implications
+# Conclusion
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Author
  @[Abbas S.](https://github.com/clkride)
