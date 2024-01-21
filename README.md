@@ -109,6 +109,18 @@ Since the p-value is less than 0.05 significance level, I reject the null hypoth
 ### Business Implication:
 A significant result implies that policyholders aligning their current address with the vehicle registration address have a meaningful impact on securing lower insurance premiums.
 
+
+### Additional Results from Hypothesis Tests:
+
+After rigorous exploration and hypothesis testing, the following key verdicts are reached:
+
+* Gender, vehicle registration address verification, and the alignment of current and registration addresses play pivotal roles in determining insurance premiums.
+* Historical legal issues and their connection to the congruence of current and vehicle registration addresses suggest a nuanced relationship.
+* The number of address changes emerges as a potential red flag for identifying suspicious policyholders.
+* Income distribution across locations follows a normal distribution, providing a baseline understanding of the economic landscape.
+
+Results can be found @ [Hypothesis_Test_Results.md]
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 # Modeling Approach 
