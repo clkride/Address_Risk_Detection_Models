@@ -36,12 +36,13 @@ There are potential patterns indicating that policyholders are strategically mis
    3. Legal Issues Database: Internal database tracking historical legal issues related to policyholders.
   
   * **External Sources**
-    1. Crime Rate Data: External datasets from local law enforcement agencies or public sources providing crime rate information.
-    2. Income and Home Value Data: External sources such as government census data or real estate databases for average income and home values.
-    3. Population Density Data: External datasets from demographic studies or government records.
-    4. Catastrophe Risk Indicators: External sources providing information on natural disaster risks in specific regions.
+    1. Crime Rate Data: Datasets from local law enforcement agencies or public sources providing crime rate information.
+    2. Income and Home Value Data: Sources such as government census data or real estate databases for average income and home values.
+    3. Population Density Data: Data from demographic studies or government records.
+    4. Catastrophe Risk Indicators: Sources providing information on natural disaster risks in specific regions.
 
-  * **Data Sample**
+* **Data Dictionary**: Detailed Description can be found @ [Data_Dictionary.md](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/data%20dictionary/feature_description.md)
+* **Data Sample**
     Here's a sample of the first few records in the dataset:
     
 | policy_number | car_make  | car_model | car_year | driver_name         | driver_age | driver_gender | driver_license_number | num_vehicle_changes | policy_start_date | non_fault_claims | premium_amount | annual_mileage | infractions | credit_score | claim_amount | num_claims | suspicious_pattern | num_address_changes | current_add_same_as_vehicle_reg | historical_legal_issues | crime_rate | anomalies_payment_history | high_risk_neighborhood | is_individual_policy_holder | is_family_policy_holder | is_long_term_policy_holder | reported_income | is_home_owner | vehicle_registration_address | vehicle_registration_address_verified | debt_to_income_ratio | years_of_employment | avg_income_by_zip_code | population_density | catastrophe_risk_indicator | avg_home_value_by_zip_code | percent_owner_occupied_homes | historical_claim_frequency_by_location |
@@ -55,7 +56,6 @@ There are potential patterns indicating that policyholders are strategically mis
                       
 
     
-* **Data Dictionary**: Detailed Description can be found @ [Data_Dictionary.md](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/data%20dictionary/feature_description.md)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -63,15 +63,16 @@ There are potential patterns indicating that policyholders are strategically mis
 
 In this phase of the project, I have tried to disclose hidden patterns in the dataset. 
 
+**Exploratory Data Analysis**: Detailed Description can be found @ [EDA.md](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/data%20exploration/data_exploration.md)
+
 * **Key Pattern**:
 
 From the preliminary data analysis (**Plot 2**), I concluded that policyholders aligning their current address with the vehicle registration address might be engaging in practices to secure reduced insurance costs
 
 Insight| &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Visualization &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
 :-------------------------|:-------------------------:
-**Plot1: Premium Paid v/s Vehicle Registration Address Verified or Not**  <br/> <br/> When vehicle registration address is not confirmed,<br/> the avg. premium tends to be lower. | ![alt text](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/plots/p1.png?raw=true)
-**Plot2: Premium Paid v/s Current Address same as Vehicle Registration Address** <br/> <br/> When current address is same as vehicle registration address<br/> then its premium tends to be lower. | ![alt text](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/plots/p2.png?raw=true)
-**Plot3: Frequency of Suspicious Pattern v/s Number of Address Changes** <br/> <br/> The count of number of suspicious people are more <br/>  for number of address changes more that or equal to 2.| ![alt text](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/plots/p3.png?raw=true)
+**Premium Paid v/s Current Address same as Vehicle Registration Address** <br/> <br/> When current address is same as vehicle registration address<br/> then its premium tends to be lower. | ![alt text](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/plots/p2.png?raw=true)
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
