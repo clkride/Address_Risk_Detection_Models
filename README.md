@@ -71,7 +71,7 @@ From the preliminary data analysis (**Plot 2**), I concluded that policyholders 
 
 Insight| &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Visualization &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
 :-------------------------|:-------------------------:
-**Premium Paid v/s Current Address same as Vehicle Registration Address** <br/> <br/> When current address is same as vehicle registration address<br/> then its premium tends to be lower. | ![alt text](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/plots/p2.png?raw=true)
+**Premium Paid v/s Current Address same as Vehicle Registration Address** <br/> <br/> When current address is same as vehicle registration <br/> address then its premium tends to be lower. | ![alt text](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/plots/p2.png?raw=true)
 
 
 
@@ -129,6 +129,8 @@ Results can be found @ [Hypothesis_Test_Results.md](https://github.com/clkride/A
 
 Model Code be found @ [LOF.ipynb](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/model/lof_anomaly_detection.ipynb)
 
+**Model Description**: By comparing the local density of a sample to the local densities of its neighbors, one can identify samples that have a substantially lower density than their neighbors. These are considered outliers.
+
 Steps - 
 1. **Data Preparation**: Feature Engineering and Data Transformation of Categorical and Numerical Attributes
 2. **Feature Selection**: Select features that are relevant for detecting anomalies
@@ -144,6 +146,11 @@ Additional Models Tried @ [kmeans_and_isolation_forest.ipynb](https://github.com
 # Model Outcome 
 
 The visualizations show the outliers encircled in red for both the training and test datasets. Outliers are identified based on the LOF scores calculated by the model.
+
+Insight| &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Visualization &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+:-------------------------|:-------------------------:
+**Premium Paid v/s Current Address same as Vehicle Registration Address** <br/> <br/> When current address is same as vehicle registration <br/> address then its premium tends to be lower. | ![alt text](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/plots/p2.png?raw=true)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
