@@ -93,6 +93,8 @@ To investigate whether the alignment of the current address with the vehicle reg
 
 I conducted a One-Way Analysis of Variance (ANOVA) using a linear regression model to explore the relationship between the alignment of the current address with the vehicle registration address and its impact on the premium amount. 
 
+Code can be found @ [EDA_and_Hypothesis_Testing.R](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/model/eda_and_hypothesis_testing.R)
+
 * **Test Result**:
 **Analysis of Variance Table**
 
