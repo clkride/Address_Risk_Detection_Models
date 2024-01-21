@@ -15,6 +15,10 @@
 
 To identify policy holders with an increased likelihood of misrepresenting their primary addresses to secure lower insurance premiums by leveraging a combination of internal and external datasets.
 
+* **Business Impact and Rationale**: 
+  * Improve the accuracy of underwriting processes by detecting potential misrepresentations in primary addresses.
+  * Reduce the risk of financial losses from lower premiums due to potential inaccuracies in policyholders' primary address disclosures.
+    
 * **Default Scenario**:
 
 Policyholders are not strategically mis-representing their primary addresses to secure lower insurance premiums
