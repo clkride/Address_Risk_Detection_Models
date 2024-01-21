@@ -149,7 +149,7 @@ The visualizations show the outliers encircled in red for both the training and 
 
 Insight| &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Visualization &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
 :-------------------------|:-------------------------:
-**Premium Paid v/s Current Address same as Vehicle Registration Address** <br/> <br/> When current address is same as vehicle registration <br/> address then its premium tends to be lower. | ![alt text](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/plots/p2.png?raw=true)
+**Income distribution by location v/s Current Address same as Vehicle Registration Address** <br/> <br/> When current address is same as vehicle registration <br/> address then its premium tends to be lower. | ![alt text](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/plots/model_outcome.png?raw=true)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
