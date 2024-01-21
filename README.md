@@ -154,9 +154,10 @@ Insight| &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Visualization &n
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# Conclusion
-
-
+# Conclusions
+* **Address Alignment Impact on Premiums**: Policyholders strategically aligning their current address with the vehicle registration address tend to secure lower insurance premiums, as evidenced by a statistically significant impact on premium amounts.
+* **Key Factors in Premium Determination**: Gender, vehicle registration address verification, alignment of current and registration addresses, historical legal issues, number of address changes, and income distribution.
+  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Author
