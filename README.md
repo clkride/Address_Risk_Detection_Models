@@ -127,6 +127,8 @@ Results can be found @ [Hypothesis_Test_Results.md](https://github.com/clkride/A
 
 **Model Used**: Local Outlier Factor (LOF) for anomaly detection
 
+Model Code be found @ [LOF.ipynb](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/model/lof_anomaly_detection.ipynb)
+
 Steps - 
 1. **Data Preparation**: Feature Engineering and Data Transformation of Categorical and Numerical Attributes
 2. **Feature Selection**: Select features that are relevant for detecting anomalies
@@ -134,6 +136,8 @@ Steps -
 4. **Model Training**: Initialize and Train the LOF Model. Fine tune the Hyper-parameters.
 5. **Predict Anomalies**: Predict anomaly scores for each policyholder in test data.
 6. **Performance Evaluation**: Plot test and training outliers to evaluate model.
+
+Additional Models Tried @ [kmeans_and_isolation_forest.ipynb](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/model/outlier_detection_models.ipynb)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
