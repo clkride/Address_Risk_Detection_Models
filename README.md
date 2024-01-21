@@ -91,11 +91,12 @@ To investigate whether the alignment of the current address with the vehicle reg
 
 ### Test Name: One Way ANOVA
 
-I conducted a One-Way Analysis of Variance (ANOVA) using a linear regression model to explore the relationship between the alignment of the current address with the vehicle registration address and its impact on the premium amount. The one-way ANOVA assesses the impact of different levels of the categorical variable on the variability in the numeric variable.
+I conducted a One-Way Analysis of Variance (ANOVA) using a linear regression model to explore the relationship between the alignment of the current address with the vehicle registration address and its impact on the premium amount. 
 
-I assessed the statistical significance of the variable to determine its influence on premium variations.
+* **Test Result**:
 
 ### Interpretation:
+I assessed the statistical significance of the variable to determine its influence on premium variations.
 - If the p-value is less than the chosen significance level (e.g., 0.05), we will reject the null hypothesis, suggesting a significant impact of the 'current_address_same_as_vehicle_registration_address' variable on premiums.
 - If the p-value is greater than the significance level, we will fail to reject the null hypothesis, indicating no significant impact.
 
