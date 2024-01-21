@@ -88,8 +88,11 @@ To investigate whether the alignment of the current address with the vehicle reg
 - **Alternate Hypothesis (\(H_a\)):**
   There is a statistically significant impact of whether addresses match or not on the amount customers pay for their insurance premiums
 
-### Test Details:
-We will conduct a linear regression analysis to explore the relationship between the alignment of the current address with the vehicle registration address and its impact on the premium amount. The statistical significance of the variable will be assessed to determine its influence on premium variations.
+### Test Name: One Way ANOVA
+
+I conducted a One-Way Analysis of Variance (ANOVA) using a linear regression model to explore the relationship between the alignment of the current address with the vehicle registration address and its impact on the premium amount. The one-way ANOVA assesses the impact of different levels of the categorical variable on the variability in the numeric variable.
+
+I assessed the statistical significance of the variable to determine its influence on premium variations.
 
 ### Interpretation:
 - If the p-value is less than the chosen significance level (e.g., 0.05), we will reject the null hypothesis, suggesting a significant impact of the 'current_address_same_as_vehicle_registration_address' variable on premiums.
