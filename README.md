@@ -119,7 +119,7 @@ After rigorous exploration and hypothesis testing, the following key verdicts ar
 * The number of address changes emerges as a potential red flag for identifying suspicious policyholders.
 * Income distribution across locations follows a normal distribution, providing a baseline understanding of the economic landscape.
 
-Results can be found @ [Hypothesis_Test_Results.md]
+Results can be found @ [Hypothesis_Test_Results.md](https://github.com/clkride/Address_Risk_Detection_Models/blob/main/data%20exploration/hypothesis_test_results.md)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
